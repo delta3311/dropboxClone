@@ -10,16 +10,14 @@ import java.util.List;
 @Service
 public class FileService {
 
-  @Autowired
-  private FileMetadataRepository fileMetadataRepository;
+    @Autowired
+    private FileMetadataRepository fileMetadataRepository;
 
-  // Method to get all files
-  public List<FileMetadata> getAllFiles() {
-    return fileMetadataRepository.findAll();
-  }
+    public List<FileMetadata> getAllFiles() {
+        return fileMetadataRepository.findAll();
+    }
 
-  // Method to save file metadata
-  public FileMetadata saveFileMetadata(FileMetadata metadata) {
-    return fileMetadataRepository.save(metadata);
-  }
+    public FileMetadata saveFileMetadata(FileMetadata metadata) {
+        return fileMetadataRepository.save(metadata);
+    }
 }
