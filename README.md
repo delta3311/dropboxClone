@@ -17,7 +17,7 @@ A **Dropbox-like application** built using **Spring Boot** for the backend and *
 Include screenshots of your app to showcase its features and functionality:
 
 1. **Home Page**:
-   ![Home Page](./screenshots/home-page.png)
+   ![Home Page](./screenshots/home-page-1.png)
 
 2. **File Upload**:
    ![File Upload](./screenshots/file-upload.png)
